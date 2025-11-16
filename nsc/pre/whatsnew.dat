@@ -1,0 +1,879 @@
+Retaguarda: v. 9.0.4.970  v.Dados 555                15/12/2017.
+
+# Contas a Receber -> Impressão de recibo ao receber um pagamento, tanto em A4, quanto em 
+                      bobina 80mm. É possível configurar para imprimir automaticamente assim
+                      que a baixa for efetuada.
+
+# Contas a Receber -> Seleção da forma de recebimento no acerto de Contas.
+
+# Contas a Receber -> Melhorias no cadastro de cheques recebidos.
+
+
+Retaguarda: v. 9.0.4.960  v.Dados 553                10/11/2017
+
+# NFCe -> Possibilidade de desconto / acréscimo ao alterar o
+          valor do total no fechamento.  O Acréscimo ou Desconto será
+          rateado nos itens.
+
+# NFe -> Correção do link de consulta na SEFAZ.
+
+# Pedidos -> Possibilidade de buscar um pedido pelo número de qualquer fatura ou
+             digitando o número até o '-' traço: Ex:  para buscar o pedido
+             que contém a fatura '012345-01/06' basta digitar '12345-'.
+
++ Pedidos -> Dois novos relatórios: resumo por Forma de Pagamento e por Cliente.
+# Contas a Receber -> O Número do pedido agora será exibido no Contrato (Para Carnês de Pagamento).
+
+
+Retaguarda: v. 9.0.4.959  v.Dados 552                03/11/2017
+
+# NFC-e -> Cálculo de troco no fechamento de Pedidos e NFCe.
+# NFC-e -> Remoção dos caracteres especiais no CPF / CNPJ.
+
+# NFC-e -> Validação do CPF / CNPJ.
+
+# NFC-e -> Consulta automatica ao detectar uma recusa de NFCe.
+
+# NFC-e -> Log de validação e erros para NFCe.
+  Documentos -> Ferramentas -> Ver Log.
+
+
+# Contas a Receber ->  Correção do AV ao transformar NP em Boleto.
+
+# Pedidos -> Correção do erro que desativava o campo de desconto
+  em pedidos.
+
+# Geral -> Novos Ícones.
+
+
+Retaguarda: v. 9.0.4.945  v.Dados 546                15/09/2017
+
+# Contas a Receber -> Arredondamento dos Juros em contas a receber (Acerto).
+
+# NFC-e -> Arredondamento dos preços na NFC-e.
+
+# Produtos -> Melhoria nos cadastros de Marcas, Unidades e Grupos à partir do cadastro de produtos.
+# Reg Entradas -> Correção do Erro de SQL ao gerar faturas de um registro de Entradas.
+
+# NF-e -> Ajustes no lançamento de Itens da NF-e.
++ NF-e -> Inclusão dos volumes e lacres na Cópia de NF-e.
+
+Retaguarda: v. 9.0.4.943  v.Dados 535                23/08/2017
+
++ Geral -> Possibilidade de emissão de NF-e e NFC-e no Regime Normal (CRT=3).
++ NF-e -> Possibilidade de Inclusão de Processos referenciados e Observações Avulsas.
+
+
+Retaguarda: v. 9.0.4.919  v.Dados 519                03/07/2017
+  # Geral ->   Atualização da tabela de CEST.
+
+               	O Código CEST será obtido na Importação das Notas fiscais
+               de entrada, no entanto, para aqueles que não utilizam
+               Importação o sistema utilizará uma tabela para atualizar o
+               CEST dos produtos que estão com este campo vazio.
+               Mesmo assim é importante fazer uma verificação do CEST dos Itens retidos,
+               visto que cada NCM pode possuir mais de um código aplicável, dependendo
+               de suas características e situações.
+
+               	A partir do cadastro do produto também é possível realizar uma consulta
+               no site "www.codigocest.com.br" utilizando o NCM do produto. Para isto,
+               clique no botão ao lado do campo CEST (Lupa com Sinal de +), o site
+               será aberto e o NCM já estará na área de transferência, cole o código
+               no campo de busca e clique em "Enviar Consulta".
+
+Retaguarda: v. 9.0.4.911  v.Dados 513                14/06/2017
+  # NF-e -> Correção CC-e.
+  # NF-e -> Ajustes na geração e transmissão de Arquivos XML para o contador.
+  # NFC-e -> Novo Relatório de NFC-e emitidas.
+  # NFC-e -> Ajustes nos Relatórios Vendas no Período NFC-e.
+  # Registro de entradas -> Ajustes nos Relatórios de Entrada X Saídas (Compras).
+  # Produtos -> Correção do erro de cálculo de estoque ao Alterar Código de Barras.
+  # NF-e e NFC-e Ajustes para permitir utilizar Mais de um certificado A3.
+  # Funcionários -> Correção do erro ao cadastrar Funcionários.
+
+Retaguarda: v. 9.0.4.891  v.Dados 492                26/04/2017
+===================================================================
+  # Ordem de Serviço -> Ajustes na Ordem de Serviço.
+  # NF-e -> Ajustes nos Perfis de Operação com NF-e
+  # NF-e -> Ajustes gerais na Edição de NF-e.
+  # NF-e -> Outros Ajustes.
+  # Clientes -> Possibilidade de definir o tipo de Inscrição do cadastrado.
+  # Contas a Receber -> Ajustes nos relatórios de acerto de contas a receber.
+  # Contas a Receber -> Ajustes no relatório de Nota Promissória.   
+
+Retaguarda: v. 9.0.4.854  v.Dados 454                21/02/2017
+===================================================================
+  # Correção da liberação manual de licença.
+  # Contas a Receber -> Emissão -> Correção da impressão de boletos.
+  # NF-e, NFC-e,  Reg de Entrada -> Melhorias na consulta de NF-e, NFC-e e Compras.
+  # Pedidos -> Outros ajustes.
+
+Retaguarda: v. 9.0.4.852  v.Dados 454                12/02/2017
+===================================================================
+  # Contas a Receber -> Correção da falha ao acessar o acerto de contas a receber
+        no caso de clientes que utilizam Juros Simples por padrão.
+  # Contas a Receber -> Acerto -> Ajustes no relatório de acerto (Matricial).
+  # Contas a Receber -> Acerto -> Ajustes na exibição dos dados do cliente.
+  # Contas a Receber -> Acerto -> Possibilidade de escolher entre juros simples e composto.
+
+  # Venda a prazo (Antigo) -> Acerto -> Ajustes no relatório de acerto (Matricial).
+  # Venda a prazo (Antigo) -> Acerto -> Ajustes na exibição dos dados do cliente.
+
+
+Retaguarda: v. 9.0.4.851  v.Dados 454                10/02/2017
+===================================================================
+  # Contas a Receber -> Melhorias no acerto por cliente.
+  # Geral -> Novo menu para suporte remoto.
+  # Geral -> Melhoria na atualização dos terminais em rede.
+
+
+Retaguarda: v. 9.0.4.832  v.Dados 441                11/01/2017
+===================================================================
+  # Produtos -> Inventário -> Correções importantes.
+  # Geral -> Correções diversas.
+
+
+Retaguarda: v. 9.0.3.806  v.Dados 422                13/10/2016
+===================================================================
+  # Clientes  -> Melhoria na forma de inserir Referencias Pessoais e Comerciais.
+  # Venda a Prazo  -> Alterações na inclusão de vendedores.
+  # Configurações  -> Correção do problema que impedia a alteração de alguns parâmetros.
+
+Retaguarda: v. 9.0.3.805  v.Dados 415                01/10/2016
+===================================================================
+  # Ordem de serviço -> Atualização dos relatórios e outros ajustes.
+  # Registro de Entradas -> Estatísticas Fiscais ->  Atualização dos relatórios de Entrada X Saídas.
+
+
+Retaguarda: v. 9.0.3.804  v.Dados 415                29/09/2016
+===================================================================
+  + Geral -> Novo sistema de backup por serviço, permitindo agendamento
+	     de backup's para o decorrer do dia, independente dos aplicativos.
+
+Retaguarda: v. 9.0.2.793  v.Dados 415                14/09/2016
+===================================================================
+  # Produtos -> Correção do arredondamento do Preço de Venda.
+  # Pedidos -> Correção do arredondamento do Preço de Venda.
+
+Retaguarda: v. 9.0.2.790  v.Dados 412                11/09/2016
+===================================================================
+  + Produtos -> Novos Filtros por Preço de Venda.
+  # Download XML via WebService -> Ajustes no tratamento de erros.
+  # Pedidos -> Caixa -> Ajustes no fechamento do caixa.
+  # Geral -> Backup -> Correção do erro quando se utilizava Caminho Relativo.
+
+Retaguarda: v. 9.0.2.786  v.Dados 409                02/09/2016
+===================================================================
+  # Ajustes no LOG de erros. O Log e as imagens dos erros serão salvas
+    no diretório: C:\Netside\temp\log\
+
+  # Emissão de NF, CF e NFC-e ->  Adicionado Limite de quantidade, preço de custo e preço de venda, a fim
+                         de evitar a informação acidental de valores exorbitantes.
+  # Outros ajustes.
+
+Frente de Caixa: v. 4.0.2.310  v.Dados 409           02/09/2016
+===================================================================
+  # Nota Fiscal Goiana ->  Ajustes para envio do arquivo pelo site. (O Envio
+                           pelo aplicativo desktop será desativado em 01/10/2016).
+
+
+Retaguarda: v. 9.0.2.777  v.Dados 404                22/07/2016
+===================================================================
+  # Emissão de Contas a Receber ->  Opção de emissão com data retroativa parametrizável.
+
+
+Retaguarda: v. 9.0.2.772  v.Dados 403                08/07/2016
+===================================================================
+  # Geral ->  Ajustes para suporte a NFCe.  
+
+
+Retaguarda: v. 9.0.2.771  v.Dados 399                01/07/2016
+===================================================================
+  # Emissão de NF-e ->  Ajustes na emissão referente a Cupons Fiscais.  
+
+
+Frente de Caixa: v. 4.0.2.301  v.Dados 399           27/06/2016
+===================================================================
+  # Emissão de Cupom ->  Correção na exibição do valor total do item.         
+
+Retaguarda: v. 9.0.2.769  v.Dados 399                23/06/2016
+===================================================================
+  # Nota Fiscal Eletrônica ->  Possibilidade de informar IPI em todas as operações com CSOSN 900 .  
+
+Retaguarda: v. 9.0.2.768  v.Dados 399                23/06/2016
+===================================================================
+{ Atenção }   É necessário informar novamente o certificado no sistema. NF-e  -> Opções -> Certificado Digital.
+
+  # Nota Fiscal Eletrônica ->  Alterações no gerenciamento de Certificado, possibilitando
+                                                             o uso de certificado A1 compartilhado.  Basta informar o 
+                                                             arquivo nas configurações do sistema: NF-e  -> Opções -> Certificado Digital.
+
+  # Nota Fiscal Eletrônica ->  Possibilidade de informar IPI para devoluções.  
+
+
+Retaguarda: v. 9.0.2.767  v.Dados 398                16/06/2016
+===================================================================
+  + Movimento do Produto -> Possibilidade de buscar por Cliente ou Número
+                            do documento.  
+
+  + Estatísticas Fiscais -> Entrada X Saídas -> Possibilidade de filtrar apenas
+                            produtos que tiveram saídas no período.  
+
+Retaguarda: v. 9.0.2.766  v.Dados 398                13/06/2016
+===================================================================
+  # Pedidos -> Possibilidade de utilizar mais de uma forma de pagamento 
+               à vista para finalizar um pedido. Ex:  Cheque à vista, 
+               Cartão de Débito, Dinheiro.  
+
+Retaguarda: v. 9.0.2.765  v.Dados 398                10/06/2016
+===================================================================
+  # Pedidos -> Ajustes no Caixa: Suprimento e Retirada sempre com a
+               data de movimento do caixa aberto.
+  # Pedidos -> Agrupamento de Itens opcional.
+  # Contas a Receber -> Correção do filtro por vendedor no relatório de comissões.
+
+Frente de Caixa: v. 4.0.2.299  v.Dados 398           03/06/2016
+===================================================================
+  # Emissão de cupom ->  Correção na exibição do estoque atual.
+
+Retaguarda: v. 9.0.2.759  v.Dados 398                03/06/2016
+===================================================================
+  # Produtos -> Ajustes na busca por Geral .
+  # Contas a Receber -> Retorno -> Correção no cálculo da Multa.
+  # Importar XML -> Opções -> Correção da criação dos diretórios. 
+
+Frente de Caixa: v. 4.0.2.297  v.Dados 398           03/06/2016
+===================================================================
+  # Emissão de cupom ->  Ajustes na busca por descrição.
+
+
+Frente de Caixa: v. 4.0.2.296  v.Dados 398           01/06/2016
+===================================================================
+  # Emissão de cupom ->  Pequenos Ajustes.
+
+Retaguarda: v. 9.0.2.758  v.Dados 398                01/06/2016
+===================================================================
+  # Pedidos ->  Pequenos Ajustes.
+
+Retaguarda: v. 9.0.2.757  v.Dados 398                01/06/2016
+===================================================================
+  # Produtos ->  Correção do filtro "Cadastrados no Período".
+
+Retaguarda: v. 9.0.2.754  v.Dados 396                13/05/2016
+===================================================================
+  # Contas a Pagar ->  Ajustes na Baixa e Nos Relatórios de Contas pagas e à pagar.
+                         Melhoria na exibição de Juros e Descontos.  
+
+
+Retaguarda: v. 9.0.2.751  v.Dados 393                10/05/2016
+===================================================================
+
+  # Clientes ->  Atualização do campo Código do IBGE.
+
+  # Inventário ->  Correção do filtro "Ignorar: embalagens, materiais de uso e ativo imobilizado".
+
+  # Vendas (Antigo) ->  Pequenos ajustes nos descontos, acréscimos e
+                               haver. 
+
+Retaguarda: v. 9.0.2.750  v.Dados 392                09/05/2016
+===================================================================
+  + NF-e ->  Possibilidade de Incluir a Observação do produto na NF-e,
+             basta indicar Sim ou Não no cadastro do produto. 
+
+  + NF-e ->  Possibilidade de cadastrar um contribuinte para emissão rápida de 
+             NF-e, basta informar o CPF ou CNPJ no campo "Destinatário",
+             Se o mesmo não estiver cadastrado, uma janela para obter os dados do
+             sefaz será aberta. Se os dados forem obtidos com sucesso, a tela 
+             de cadastro de Cliente/Fornecedor será aberta para conclusão do 
+             cadastro.
+
+Retaguarda: v. 9.0.2.748  v.Dados 392                06/05/2016
+===================================================================
+  # Download de XML ->  Removida a Messagem vazia após baixar um XML.
+
+  # NF-e  O Time-Out de espera dos serviços de NF-e foi dobrado:
+          era 5 seg agora são 10. E o numero de tentativas era 5 agora são 10 também.
+
+  # Geral -> Removido o Access  violation após fechar uma tela com grid ordenado.
+
+
+Retaguarda: v. 9.0.2.745  v.Dados 392                05/05/2016
+===================================================================
+  + Contas a Receber -> Emissão de Titulos SICOOB.                      
+
+  # Controle de Cheques -> Ajustes e integração com a baixa de 
+                           contas a receber.
+			-> Ajustes e integração com o Caixa.
+
+  # Pedidos  -> Impressão de todas as parcelas no pedido.
+             -> Novo modelo de pedido para impressoras não
+                fiscais.
+             -> Opção de lançamento rápido de itens com Leitor
+                de código de barras.
+	     -> Pequenas correções.
+
+
+  # NF-e  ->  Aumento das casas decimais (6) do Preço de Venda e 
+              quantidade (4).
+
+  # Geral  ->  Ajustes na estrutura do banco de dados.
+
+
+Retaguarda: v. 9.0.2.720  v.Dados 375                11/04/2016
+===================================================================
+  # Contas a Receber -> Ajustes na Emissão de Titulos.
+	    	        Ajustes na impressão de boletos.
+                        Ajustes na geração de Remessa CEF.
+
+
+Frente de Caixa: v. 4.0.2.282  v.Dados 375           11/04/2016
+===================================================================
+  # Geral -> Ajustes na Emissão de Titulos.
+
+
+Retaguarda: v. 9.0.2.718  v.Dados 369                08/04/2016
+===================================================================
+  # Contas a Receber -> Baixa -> Ajustes .
+  # Contas a Receber -> Retorno de Boletos -> Ajustes .
+  # Contas a Receber -> Impressão de Boletos -> Ajustes .
+  # Pedidos -> Ajustes .
+  # Produtos -> Ajustes .
+  # NF-e -> Ajustes .
+
+
+Frente de Caixa: v. 4.0.2.280  v.Dados 369           03/04/2016
+===================================================================
+  # Emissão de Cupons -> Ajustes .
+
+
+Retaguarda: v. 9.0.2.700  v.Dados 309                07/03/2016
+===================================================================
+  # NF-e -> Envio de Xml/Pdf por Período-> Correção do envio de PDF.
+
+
+Retaguarda: v. 9.0.2.699  v.Dados 309                04/03/2016
+===================================================================
+  # Compras -> Importar XML-> Ajuste dos destaques por cor no Grid.
+  # Contas a Receber -> Correção do cálculo da multa dos Boletos.
+
+
+Retaguarda: v. 9.0.2.698  v.Dados 309                25/02/2016
+===================================================================
+  # NF-e -> Ajuste nos Cálculos de ICMS Normal.
+
+
+Frente de Caixa: v. 4.0.2.273  v.Dados 309           25/02/2016
+===================================================================
+  # Fechamento do Cupom -> Bloqueio do desconto com valor zerado.
+
+
+Retaguarda: v. 9.0.2.696  v.Dados 308                23/02/2016
+===================================================================
+  # Pedidos -> Controle do limite de descontos por usuário.
+
+
+Frente de Caixa: v. 4.0.2.272  v.Dados 308           22/02/2016
+===================================================================
+  # Geral -> Organização dos arquivos gerados por pastas.
+             "C:\Netside\Registros Fiscais\PAF"
+
+Retaguarda: v. 9.0.2.693  v.Dados 306                22/02/2016
+===================================================================
+  # Compras -> Ajustes na Importação de XML.
+  # NF-e -> Ajustes na Consulta.
+
+
+Retaguarda: v. 9.0.2.691  v.Dados 305                18/02/2016
+===================================================================
+
+  + Geral -> Estatisticas Fiscais -> Resumo de Entrada e Saída por Item.
+
+  + Geral -> Estatisticas Fiscais acessível pelos módulos de Registro de
+             Entrada e NF-e.
+
+  # Pedidos -> Ajuste na inclusão de serviços e Ajustes na alteração de Itens.
+
+  + Pedidos -> Nova forma de fechamento da Venda, podendo Alterar o valor 
+               final do pedido, gerando Acréscimo ou Desconto.  
+                
+
+
+Retaguarda: v. 9.0.2.690  v.Dados 301                16/02/2016
+===================================================================
+  + Pedidos -> Estatisticas de Parcelamentos e Descontos feitos pelos 
+               vendedores.
+
+  # Compras -> Correção do relatório de resumo de compras por Itens.
+
+  # Contas a Pagar -> Correção da baixa de Titulos Importados via XML.
+
+  # Contas a Receber / Pedidos -> Já que a confirmação de usuário é exigida, Os comandos de
+                   exclusão/estorno, estarão disponíveis para todos os usuários,  Evitando o
+                   LogOff do usuário atual, apenas para exclusão.
+
+
+Retaguarda: v. 9.0.2.686  v.Dados 300                04/02/2016
+===================================================================
+  # Geral ->  Pequenas correções: produtos, compras, importação de xml.
+              (A opção de importar nfe só aparecerá se estiver ativa nas
+              configurações gerais).
+
+  + Pedidos -> Desconto ao finalizar a Venda com rateio entre os Itens.
+  # Pedidos -> Reformulação da interface;
+
+
+Retaguarda: v. 9.0.2.684  v.Dados 299                02/02/2016
+===================================================================
+  + Geral ->  Inclusão do campo CEST (Código Especificador de Substituição Tributária)
+              no cadastro de produtos. Assim como o NCM este código será
+              atualizado automaticamente ao importar um XML de NF-e de compra.
+              Segundo a NT 2015 03, versão 1.50,  A exigencia do CEST na emissão
+              de documentos fiscais está prevista para 01/04/2016.
+
+  + Compras -> Lançamento de Fatura Manual-> Correção do lançamento e visualização. 
+
+
+
+Retaguarda: v. 9.0.2.683  v.Dados 298                29/01/2016
+===================================================================
+  + Clientes ->  Correção do acesso ao histórico que eventualmente trazia
+                 informações do cliente selecionado anteriormente.
+
+Frente de Caixa: v. 4.0.2.267  v.Dados 298           27/01/2016
+===================================================================
+  + Geral ->  Atualização das dlls Bematech (Ver 7.0.3.24 - dezembro/2015 )
+
+
+Retaguarda: v. 9.0.2.680  v.Dados 298                27/01/2016
+===================================================================
+  + Geral ->  Atalhos na área de trabalho do sistema.
+
+              Para Criar: Abra o  menu "Mais", Clique com botão direito
+              sobre um dos módulos e clique em "Criar Atalho".
+
+              Para Movimentar: Segure a tecla "Control" e arraste 
+              o Ícone para o local desejado.
+
+              Para Organizar ou Excluir: Menu contexto da área de trabalho.                            
+           
+                 
+
+Retaguarda: v. 9.0.2.656  v.Dados 298                22/01/2016
+===================================================================
+  + Compras, Nfe ->  Movimento Fiscal -> Melhoria no resumo por CFOP, 
+                     mais detalhes das Vendas no ECF e separação das
+                     nf-e's de entrada e saída.
+
+  # NF-C (Nota fiscal do consumidor) -> Correção no lançamento dos itens.
+
+Retaguarda: v. 9.0.2.655  v.Dados 298                20/01/2016
+===================================================================
+  + Pedidos ->  Estatísticas -> Resumo de vendas por Cliente.
+
+Retaguarda: v. 9.0.2.653  v.Dados 294                15/01/2016
+===================================================================
+  + Pedidos ->  Estatísticas -> Resumo de vendas mensal com média diária.
+
+Retaguarda: v. 9.0.2.649  v.Dados 294                15/01/2016
+===================================================================
+  + NF-e -> Correção da Emissão NF-e Referente a cupom fiscal.
+            Rateio entre os itens do desconto / acréscimo que foi aplicado
+            ao finalizar o cupom.
+
+Frente de Caixa: v. 4.0.2.264  v.Dados 294           15/01/2016
+===================================================================
+  # Cupons Fiscais - > Rateio entre os itens do desconto / acréscimo ao finalizar o cupom.
+
+
+Frente de Caixa: v. 4.0.2.263  v.Dados 293           12/01/2016
+===================================================================
+  # Relatório Resumo de Vendas (Produtos) ->  Exibição do lucro e totais de custo.
+
+Retaguarda: v. 9.0.2.648  v.Dados 293                12/01/2016
+===================================================================
+  + Geral -> Inclusão do custo nas vendas para geração de demonstrativo
+             de lucro (Sebrae).
+  + Pedidos -> Relatório Resumo de Vendas (Produtos) ->  Exibição do lucro e totais de custo.
+
+
+Retaguarda: v. 9.0.2.646  v.Dados 287                11/01/2016
+===================================================================
+  # Inventário-> Ajustes para inclusão dos itens de devolução de venda.  
+  # Compras -> Correção do erro que informava a data de emissão como
+               data de entrada.
+  # Scanner XML -> Correção do erro que cancelava a busca ao encontrar 
+                   uma sequência de nf-es já cadastradas. 
+  # Pedidos -> Atualização das formas de pagamentos.
+
+===================================================================
+
+Retaguarda: v. 9.0.2.641  v.Dados 282                09/12/2015
+===================================================================
+  + Vendas à prazo-> Ajustes no relatório para exibir descontos e recebimentos.  
+===================================================================
+
+Retaguarda: v. 9.0.2.637  v.Dados 282                08/12/2015
+===================================================================
+  + Pedidos-> Ajustes na busca.
+  # Contas a receber - > Opção para exibir o pedido que gerou a fatura.
+===================================================================
+
+Frente de Caixa: v. 4.0.2.260  v.Dados 282          08/12/2015
+===================================================================
+  +Pequenos ajustes no fechamento do cupom para tentar retomar a comunicação com o ecf
+     em caso de perda.
+
+Retaguarda: v. 9.0.2.636  v.Dados 282                08/12/2015
+===================================================================
+  + NF-e-> Nova opção para Envio de xml por e-mail.
+  + Contas a pagar-> Busca reformulada.
+
+Retaguarda: v. 9.0.2.633  v.Dados 281                01/12/2015
+===================================================================
+  + NF-e-> Tratamento de Notas fiscais denegadas.
+  + Contas a pagar-> Alteração na exibição das contas.
+  + Contas a pagar-> Atualização dos gráficos.
+  + Caixa->  Atualização dos gráficos.
+===================================================================
+
+Retaguarda: v. 9.0.2.627  v.Dados 278                09/11/2015
+===================================================================
+  + Compras -> Ao tentar importar um arquivo XML que não seja destinado à empresa, será
+                       permitido apenas visualizar o DANFE. 
+===================================================================
+
+Retaguarda: v. 9.0.2.621  v.Dados 278                31/10/2015
+===================================================================
+  # Contas a receber -> Possibilidade de alterar o valor e vencimento das parcelas, desde que:
+                                      1 - O Usuário tenha permissão.
+                                      2 - O Documento não esteja totalmente ou parcialmente pago.
+                                      3 - Não seja Boleto Bancário com registro enviado ou pendente.
+                                      4 - Não esteja vinculado a um pedido de venda, neste caso somente
+                                           o vencimento poderá ser alterado.
+                                     * após alterar será criada uma observação somente-leitura para 
+                                       o documento, informando os detalhes da alteração.
+ 
+  # Geral -> 40 Relatórios revisados. 
+===================================================================
+
+
+Frente de Caixa: v. 4.0.2.256  v.Dados 278          31/10/2015
+===================================================================
+  +Recuperação do cupom fiscal aberto ao iniciar o sistema, desde que não utilize TEF.
+
+===================================================================
+Retaguarda: v. 9.0.2.616  v.Dados 277                22/10/2015
+===================================================================
+  # NF-e -> Correção no Manifesto de "Operação realizada". 
+  # NF-e -> O Download de XML, por padrão não  será mais efetuado automaticamente pelo
+                 Scanner de XML devendo ser ativado em configurações do sistema. 
+
+===================================================================
+Retaguarda: v. 9.0.2.612  v.Dados 277                16/10/2015
+===================================================================
+  # NF-e -> Correções na Emissão de nota fiscal de Ajuste. 
+
+===================================================================
+Retaguarda: v. 9.0.2.610  v.Dados 277                14/10/2015
+===================================================================
+  + Clientes -> Novos campos e informações nos contatos de clientes e fornecedores.
+  + Produtos -> Novo filtro de produtos por nota fiscal de entrada. 
+  + Compras -> Impressão do Manifesto do Destinatário. 
+
+===================================================================
+Retaguarda: v. 9.0.2.610  v.Dados 276                06/10/2015
+===================================================================
+  # NF-e -> Correção do cálculo de substituição tributária com redução na base de cálculo.
+
+===================================================================
+Retaguarda: v. 9.0.2.609  v.Dados 276                05/10/2015
+===================================================================
+  # Compras ->  Importação de XML-> correção da falha que causava duplicidade de itens ao abrir
+                        arquivo xml pelo comando "Abrir NF-e".
+
+===================================================================
+Retaguarda: v. 9.0.2.608  v.Dados 276                01/10/2015
+===================================================================
+  + Compras ->  Ajuste da Situação tributária do produto de acordo com o CFOP selecionado na 
+                        importação.
+
+===================================================================
+Retaguarda: v. 9.0.2.606  v.Dados 276                29/09/2015
+===================================================================
+  + Compras ->  Controle das notas fiscais de devolução de venda obtidas pelo scanner,
+                        estas notas serão destacadas e poderão ser apenas visualizadas.
+
+  # Compras ->  Todas as ações de Manifesto do destinatário serão para as notas marcadas,
+                         utilizando o comando F8.
+
+  # Compras ->  O Download das notas marcadas foi colocado no menu contexto do grid de compras,
+                        junto com os comandos de marcação e filtro.
+
+  # Produtos ->  Correção da busca por aplicação.
+
+===================================================================
+Retaguarda: v. 9.0.2.604  v.Dados 274                24/09/2015
+===================================================================
+  + Produtos -> Atualização de preços utilizando índice em dólar .
+
+===================================================================
+Retaguarda: v. 9.0.2.600  v.Dados 272                18/09/2015
+===================================================================
+  + Compras -> O Scanner de XML ao obter uma nota fiscal, já manifesta ciência e tenta 
+                        baixar o xml automaticamente.
+
+  + Compras -> Reformulação da Importação de XML, agora os dados da nf-e serão armazenados
+                       no banco de dados, permitindo a continuação da importação da nota fiscal em qualquer terminal.
+                       agora também é possivel alterar os valores do ICMS ST e FRETE de cada item.                        
+
+  # Compras -> Visualizar Danfe (F11) -> Novo comando para visualizar Danfe, após o download do xml, tanto na 
+                        lista de compras, quanto na importação do XML.  
+
+  # Compras -> Importação de XML -> Vincular Item: Correção do erro provocado pela utilização da tecla TAB,
+                       para trocar de campo. 
+      
+  # Contas a Receber : Baixa múltipla -> Correção da opção marcar todos.
+
+===================================================================
+Retaguarda: v. 9.0.2.591  v.Dados 265                31/08/2015
+===================================================================
+  # Contas a Receber : Inclusão da multa no acerto de boletos bancários.
+  # Contas a Receber : Correção de bug ao inserir uma nova observação para uma conta a receber.
+
+===================================================================
+Retaguarda: v. 9.0.2.589  v.Dados 262                28/08/2015
+===================================================================
+  + Compras : Possibilidade de Manifesto e Download de múltiplas notas fiscais.
+
+===================================================================
+Retaguarda: v. 9.0.2.587  v.Dados 262                24/08/2015
+===================================================================
+   # Geral : Correção de envio de e-mail para contas com senha com tamanho superior a
+                 12 dígitos.
+===================================================================
+Retaguarda: v. 9.0.2.582  v.Dados 262                04/08/2015
+===================================================================
+   # Compras : Correção do Download via site.
+
+===================================================================
+Retaguarda: v. 9.0.2.580  v.Dados 262                29/07/2015
+===================================================================
+   # Compras : Status de cancelamento de NF-e para xml obtido via scanner.
+
+===================================================================
+Retaguarda: v. 9.0.2.579  v.Dados 262                28/07/2015
+===================================================================
+   # NF-e : Detalhes do manifesto na aba "Dados Adicionais".
+
+===================================================================
+Retaguarda: v. 9.0.2.578  v.Dados 261                22/07/2015
+===================================================================
+   # Pedidos : Correção da emissão de nf-e referente à pedido.
+   # Geral : Correção do comando "Cancelar fila de impressão".
+   + Contas à receber : Opção de "Cancelar fila de impressão" no menu ferramentas.
+   
+===================================================================
+Retaguarda: v. 9.0.2.577  v.Dados 261                20/07/2015
+===================================================================
+   + Compras : Exibição do status do Manifesto do destinatário.
+   # Compras : Correção do travamento após uma falha no download via Web Service.
+   # NF-e : Envio do xml do evento por e-mail após o cancelamento e no resumo de notas emitidas.
+
+===================================================================
+Frente de Caixa: v. 4.0.2.251  v.Dados 260          02/07/2015
+===================================================================
+   +Adicionada mensagem ao iniciar Frente de caixa que ainda não contem o arquivo de movimentação da NFGoiana do mês anterior no diretório do sistema;
+
+===================================================================
+Retaguarda: v. 9.0.2.575  v.Dados 260                01/07/2015
+===================================================================
+   # Corrigida a busca por número de NF no módulo de NFe em DOCUMENTOS REFERENCIADOS quando contém zero a esquerda;
+   + Add opção de haver no acerto de contas do cliente. Agora é possível fazer o recebimento em qualquer situação pelo F1;
+     No caso de BAIXA, se o valor informado for menor que o total a receber + juros, o valor recebido será dividido proporcionalmente      pelas parcelas;
+
+===================================================================
+Retaguarda: v. 9.0.2.573  v.Dados 259                25/06/2015
+===================================================================
+   # Movimentação do Produto (F9): Correção do atalho F9.
+   + Movimentação do Produto (F9): Dois cliques na venda, abrirá a mesma para conferência dos produtos vendidos.
+   + Emissão de Contas a Receber : Inserida opção de pedir senha ou bloquear a emissão ao inserir cliente sem endereço.
+   # Contas a Receber >Acerto Clientes diferentes (Ctrl + S): Corrigido o ';' para '/' ao fazer leitura do código de barras do título;
+
+===================================================================
+Frente de Caixa: v. 4.0.2.245  v.Dados 258          18/06/2015
+===================================================================
+
+  # Relatórios: Correção dos dados exibidos no relatório de
+                produtos vendidos.
+
+
+===================================================================
+Retaguarda: v. 9.0.2.568  v.Dados 257                16/06/2015
+===================================================================
+   # NF-e: Correção do erro ao exibir / informar volumes.
+   + Compras: Gerar XML das notas de entrada por período mensal.
+   # Contas a pagar: escolher conta bancária ao selecionar o tipo cheque.
+
+===================================================================
+Frente de Caixa: v. 4.0.2.244  v.Dados 257          16/06/2015
+===================================================================
+
+  # Relatórios: Alteração dos dados exibidos no relatório de
+                produtos vendidos.
+
+===================================================================
+Retaguarda: v. 9.0.2.558  v.Dados 256                02/06/2015
+===================================================================
+   # Produtos: Opção de filtro produtos com ou sem estoque.
+   # Contas a receber: Exibir venda referente à fatura.
+
+===================================================================
+Frente de Caixa: v. 4.0.2.237  v.Dados 256          13/05/2015
+===================================================================
+
+   #Geração de Arquivos: Correção na geração de arquivos CAT-52.
+
+   #Geração de Arquivos: Agora é possivel salvar o arquivo em algum 
+     local especifico (pen-drive), ou enviar por e-mail.
+
+
+===================================================================
+Retaguarda: v. 9.0.2.557  v.Dados 256                13/04/2015
+===================================================================
+
+   #Geral -> Novo controle de licença.
+   #Produtos -> Alteração multipla de preço -> Agora é possivel escolher
+           quais produtos serão afetados: Todos, Listados, Marcados ou Desmarcados. 
+   #Vendas a prazo -> Corrigido o erro ao carregar os vendedores
+                      no detalhe da venda.
+
+
+===================================================================
+Frente de Caixa: v. 4.0.2.233  v.Dados 254          05/05/2015
+===================================================================
+
+   #Relatórios, Vendas : Adicionado o tipo da venda no cartão em
+                resumo de vendas por formas de pagamento.
+                Documentos -> Relatórios -> Resumo de vendas(formas de pagamento) 
+
+
+===================================================================
+Retaguarda: v. 9.0.2.552  v.Dados 252                28/04/2015
+===================================================================
+
+   #Geral -> Corrigido o erro de backup.
+   #Geral -> Corrigido o erro de acesso ao gerenciador financeiro.
+
+
+===================================================================
+Frente de Caixa: v. 4.0.2.234  v.Dados 252          28/04/2015
+===================================================================
+
+   #Geral : Geração do arquivo para o programa Nota Fiscal Goiana.
+                Menu Principal -> Crtl+G
+            Mais informações em: http://www.nfgoiana.sefaz.go.gov.br/ 
+
+===================================================================
+Frente de Caixa: v. 4.0.2.232  v.Dados 250          27/04/2015
+===================================================================
+
+   #Relatórios, Vendas : Resumo de vendas por formas de pagamento.
+                Documentos -> Relatórios -> Resumo de vendas(formas de pagamento) 
+
+   #Relatórios, Mapa Resumo: Correção do erro que duplicava valores do mapa
+                quando impresso em matriciais.
+   
+
+===================================================================
+Retaguarda: v. 9.0.2.550  v.Dados 250                22/04/2015
+===================================================================
+
+   #NF-e: Ao emitir nf-e referente à cupom fiscal, o perfil e a forma serão preenchidos.
+
+   #Venda a Prazo: Corrigido o erro que impedia atualização do preço do dia dos itens.
+
+   +Contas a Receber: Possibilidade de estorno de rebimentos.
+
+
+===================================================================
+Frente de Caixa: v. 4.0.2.230  v.Dados 248          06/04/2015
+===================================================================
+
+   # Cancelamento de cupom: As contas a receber serão excluídas quando o cupom for cancelado.
+
+===================================================================
+Retaguarda: v. 9.0.2.547  v.Dados 248                09/04/2015
+===================================================================
+
+   #Geral: Criptografia do arquivo de  acesso a banco de dados (NscConn.ini). 
+
+===================================================================
+Frente de Caixa: v. 4.0.2.229  v.Dados 247          06/04/2015
+===================================================================
+
+   # Fechamento do cupom: Correção do erro ao fechar uma venda com forma de pagamento "Prazo",
+     o valor da venda era zerado quando o código do cliente era inferior a 4 dígitos.
+
+===================================================================
+Retaguarda: v. 9.0.2.546  v.Dados 247                02/04/2015
+===================================================================
+
+   #NF-e: Aumento dos caracteres da informação complementar para 350 caracteres.
+    (estava cortando em 150 ). 
+
+   #Geral: Correção do erro ao manipular atalhos na área de trabalho do sistema. 
+ 
+   +Pedidos: Adicionado controle de permissões do usuário: incluir, alterar, excluir, Alterar preço.   
+
+===================================================================
+Retaguarda: v. 9.0.2.545  v.Dados 246                30/03/2015
+===================================================================
+
+   + Registro de Entrada : Acesso ao cadastro do fornecedor/cliente  ao pressionar F9 sobre o campo
+      "Razão social/Nome fantasia".
+
+   + NF-e : Acesso ao cadastro do fornecedor/cliente ao  pressionar F9 sobre o campo "Destinatário".
+
+   #NF-e : Correção do erro ao vincular faturas.
+
+   #NF-e: Melhoria no salvamento do cadastro. 
+
+   #Clientes: Melhoria no salvamento do cadastro. 
+
+   #Produtos: Melhoria no salvamento do cadastro.
+
+   +Importação de XML: Possibilidade de acessar o cadastro de Mapeamento de CFOP's na própria tela
+     de importação ou clicando no próprio CFOP.      
+
+===================================================================
+Retaguarda: v. 9.0.2.544  v.Dados 246               25/03/2015
+===================================================================
+
+   + Geral : menores alterações na exibição de informações sobre atualizações.
+
+===================================================================
+Retaguarda: v. 9.0.2.543  v.Dados 246               24/03/2015
+===================================================================
+
+   + Geral : Ao atualizar o sistema agora é possivel ver informações sobre novas implementações e
+      correções.
+
+===================================================================
+Frente de Caixa: v. 4.0.2.228  v.Dados 246        24/03/2015
+===================================================================
+
+   + Venda: Opção de cancelar o último item digitando  traço "-" no campo de busca.
+
+   * Leitura X: Correção do erro "Arithmetic exception, numeric overflow, or string truncation".
+
+   * Redução Z: Correção do erro "String com tamanho maior que o esperado".
+
+   * Fechamento do cupom: Correção do erro ao fechar uma venda com forma de pagamento "Prazo".
+
+===================================================================
+Retaguarda: v. 9.0.2.542  v.Dados 245             20/03/2015
+===================================================================
+
+   + NF-e : Possibilidade de faturar ou vincular faturas.
+   + Caixa : Possibilidade de duplicar um lançamento.
+   * Contas a pagar : Correção da formatação de valores maiores ou iguais a 1000,00.
