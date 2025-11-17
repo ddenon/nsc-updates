@@ -1,1 +1,1 @@
-{"baseManifestUrl":"https://github.com/{owner}/{repo}/releases/download/{tag}/update-manifest.json","releases":{"v2025.11.16-new-2-beta":{"version":"2025.11.16-new-2","channel":"beta","releaseDate":"2025-11-16T21:46:31.167Z","locked":false}}}
+{"baseManifestUrl":"https://github.com/{owner}/{repo}/releases/download/{tag}/update-manifest.json","releases":{"v2025.11.16-new-2-beta":{"version":"","channel":"","releaseDate":"","locked":false},"v2025.11.16-pre1-pre":{"version":"2025.11.16-pre1","channel":"pre","releaseDate":"2025-11-16T22:34:50.292Z","locked":false}}}
