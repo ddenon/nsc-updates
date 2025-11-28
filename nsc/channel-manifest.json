@@ -1,8 +1,1 @@
-{
-  "createdAt": "2025-11-17T20:04:13.795Z",
-  "description": "",
-  "crt": "crtSimplesNacional",
-  "baseManifestUrl": "https://github.com/ddenon/nsc-updates/releases/download/",
-  "releases": {
-   }
-}
+{"createdAt":"2025-11-17T20:04:13.795Z","description":"","crt":"crtSimplesNacional","baseManifestUrl":"https://github.com/ddenon/nsc-updates/releases/download/","releases":{"2025.11.28-1033":{"version":"2025.11.28-1033","channel":"release","releaseDate":"2025-11-28T10:34:45.176Z","locked":false}}}
